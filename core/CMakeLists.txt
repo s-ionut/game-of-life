@@ -19,7 +19,6 @@ file(GLOB_RECURSE SOURCE_FILES src/ *.cpp)
 
 target_sources(${PROJECT_NAME}
     PRIVATE
-    main.cpp
     ${SOURCE_FILES}
 )
 
