@@ -8,3 +8,9 @@ mkdir .build && cd .build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
 ```
+
+## Run game
+```
+cd .build
+./core/game-of-life
+```
