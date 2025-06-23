@@ -12,5 +12,5 @@ cmake --build .
 ## Run game
 ```
 cd .build
-./core/game-of-life
+./core/game_of_life
 ```
