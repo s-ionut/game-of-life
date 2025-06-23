@@ -26,8 +26,7 @@ public:
     {
         if (m_paused)
         {
-            m_grid = m_grid->GetNextGeneration();
-            m_generation++;
+            UpdateSimulation();
         }
     }
 
